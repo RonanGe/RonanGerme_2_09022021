@@ -12,21 +12,22 @@
 	<body>
 		<header>
 			<p><img src="images/logo/Reservia@3x.png" alt="Reservia" class= "titre"></p>
-			<nav> 
 				<ul>
 					<li><a href="#Hébergements">Hébergements</a></li><!--Hébergements et activités ancres menant aux sections-->
 					<li><a href="#Activités">Activités</a></li>
 					<li>S'inscrire</li>
 				</ul>
-			</nav>
 		</header>
 
 		<nav>
-			<h2>Trouvez votre hébergement pour des vacances de rêve</h2><ul/>
+			<h2>Trouvez votre hébergement pour des vacances de rêve</h2>
 			<p>En plein centre ville ou en pleine nature </p>
 
 			<form method="post" action="traitement.php">
-				<i class="fas fa-map-marker-alt"></i> <input type="search" placeholder="Marseille, France" /><input type="submit" value="Rechercher" />
+				<div class="rechercher">
+					<i class="fas fa-map-marker-alt"></i>
+					<input type="search" placeholder="Marseille, France" /><input type="submit" value="Rechercher" class="bouton_rechercher" />
+				</div>
 				<br/>
 				<p>Filtres </p> 
 				<i class="fas fa-money-bill"></i> <input type="button" value="Economique"> <i class="fas fa-child"></i> <input type="button" value="Familial"> <i class="fas fa-heart"></i> <input type="button" value="Romantique"> <i class="fas fa-dog"></i> <input type="button" value="Animaux autorisés">
