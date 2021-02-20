@@ -1,0 +1,520 @@
+body
+{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titre
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    height: 50px;
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.titre
+{
+    vertical-align: top;
+}
+
+header ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none ; 
+    vertical-align: top;
+    margin-top: 5px;
+}
+
+header li
+{
+    display: flex;
+    margin-right: 15px;
+    font-size: small;
+}
+
+header li:hover
+{
+   color: #0065FC; 
+   text-decoration: overline;
+}
+
+header a:hover
+{
+    color: #0065FC;
+    text-decoration: overline;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: black;
+    text-decoration: none;
+}
+
+
+h2
+{
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: auto;
+    padding-bottom: 2px;
+}
+
+
+nav p
+{
+    font-size: smaller;
+    padding-top: 2px;
+    height: 15px;
+}
+
+.fa-map-marker-alt
+{
+    background: #F2F2F2;
+    font-size: small;
+    border: 10px #F2F2F2 solid;
+    border-radius: 10px 0px 0px 10px;
+    width: 20px;
+}
+
+.rechercher
+{
+   display: flex;
+   height: 45px;
+   font-size: small;
+   margin-top: 25px;
+}
+
+.bouton_rechercher
+{
+    color: white;
+    background:#0065FC;
+    border: 10px #0065FC solid;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.filtres, p, .cash, .child, .heart, .dog
+{
+    display: flex;
+    align-items: center;
+    margin: -2px;
+    padding-right: 5px;
+    justify-content:left;
+    margin-right: 15px;
+}
+
+.filtres p
+{
+    font-weight: bold;
+    margin-right: 8px;
+    margin-top: -5px;
+}
+
+.filtres .fa-money-bill, .fa-child, .fa-heart, .fa-dog
+{
+    color:#0065FC;
+    background-color: #DEEBFF; 
+    border: 8px #DEEBFF solid;
+    border-radius: 50%; 
+}
+
+.cash, .child, .heart, .dog
+{
+    border: 2px #F2F2F2 solid;
+    border-radius:30px;
+    width: auto;
+}
+
+.money, .famille, .romantique, .animaux
+{
+    background-color: white;
+    border: 2px white solid;
+    font-weight: bold;
+}
+
+.filtres :hover
+{
+    text-decoration: underline;
+    color: #0065FC;
+}
+
+.info
+{
+    font-size: smaller;
+}
+
+.fa-info-circle
+{
+    color:#0065FC;
+}
+#hébergements
+{
+    background-color: #F2F2F2;
+    border-radius: 30px ;
+    width: 80%;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+#logements
+{
+    display: flex;
+    flex-wrap:wrap;
+}  
+
+#hébergements h2
+{
+    font-size: small;
+    padding-left: 10px;
+}
+
+#afficher
+{
+    font-size: x-small;
+    text-decoration: none;
+    color : black;
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+#cannebière, #port, #mouettes, #mer, #panier
+{
+    background-color: white;
+    border: 4px white solid;
+    border-radius: 10px 10px 20px 20px;
+    width: 250px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#cannebière img, #port img, #mouettes img, #mer img, #panier img
+{
+    border-radius: 10px 10px 0px 0px;
+    width: 250px;
+    height: 144px;
+}
+
+#cannebière_text , #port_text, #mouettes_text, #mer_text, #panier_text
+{
+    font-size: smaller;
+    text-decoration: none ;
+    color:black;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+#prixC , #prixP, #prixM, #prixMer, #prixPanier
+{
+    font-size: smaller;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+}
+
+#stars , #starsP, #starsM, #starsMer, #starspanier
+{
+    font-size: smaller;
+    text-decoration: none;
+    color: #0065FC;
+    padding-left: 5px;
+}
+
+#amina
+{
+    background-color: white;
+    border: 4px white solid;
+    border-radius: 10px 10px 20px 20px;
+    width: 250px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#amina img
+{
+    border-radius: 10px 10px 0px 0px;
+    width: 250px;
+    height: 144px;
+}
+
+#amina_text
+{
+    font-size: smaller;
+    text-decoration: none ;
+    color:black;
+    font-weight: bold;
+}
+
+#prixA
+{
+    font-size: smaller;
+    text-decoration: none;
+    color: black;
+}
+
+#starsA
+{
+    font-size: smaller;
+    text-decoration: none;
+    color: #0065FC;
+}
+
+section
+{
+    display: flex;
+}
+#populaires
+{
+    background-color: #F2F2F2;
+    border-radius: 30px ;
+    width: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-top: 15px;
+    margin-left: 30px;
+    padding-bottom: 15px;
+    padding-right: 17px;
+}
+
+#populaires h3
+{
+    font-size: small;
+    padding-left: 10px;
+}
+
+#eau, #soleil, #blanc
+{
+    background-color: white;
+    border: 4px white solid;
+    border-radius: 10px 10px 20px 19px;
+    width: 400px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+
+#eau img, #soleil img, #blanc img
+{
+    border-radius: 10px 0px 0px 10px;
+    height: 150px; 
+    width: 160px;
+    margin-right: 15px;
+}
+
+#text_eau, #text_soleil, #text_blanc
+{
+    font-size: smaller;
+    text-decoration: none ;
+    color:black;
+    display: flex;
+    align-content: space-around;
+}
+
+#text_eau h3, #text_soleil h3, #text_blanc h3
+{
+    margin-bottom: 4px;
+    padding-left: 0px;
+}
+
+#text_eau i, #text_soleil i, #text_blanc i
+{
+    color: #0065FC;
+}
+
+article h2
+{
+    font-size: small;
+}
+
+#Activités
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+#Activités h3
+{
+    font-size: x-small;
+    padding-left: 20px;
+}
+
+#Vieux_port
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 330px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+#Vieux_port img
+{
+    border-radius: 10px 10px 0px 0px;
+    height: 500px; 
+    width: 330px;
+    margin-right: 10px;
+}
+
+#Fort
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 330px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#Fort img
+{
+    border-radius: 10px 10px 0px 0px;
+    height: 200px; 
+    width: 330px;
+    margin-right: 10px;
+}
+
+#Iles
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 330px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#Iles img
+{
+    border-radius: 10px 10px 0px 0px;
+    height:175px; 
+    width: 330px;
+    margin-right: 10px;
+}
+
+#fort_iles
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#calanques
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 330px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#calanques img
+{
+    border-radius: 10px 10px 0px 0px;
+    height: 500px; 
+    width: 330px;
+    margin-right: 10px;
+}
+
+#garde_longchamp
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#Garde
+{
+    background-color: white;
+    width: 330px;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+#Garde img
+{
+    border-radius: 10px 10px 0px 0px;
+    height:175px; 
+    width: 330px;
+    margin-right: 0px;
+}
+
+#Longchamp
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 330px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+#Longchamp img
+{
+    border-radius: 10px 10px 0px 0px;
+    width: 330px;
+    height: 200px;
+    margin-right: 0px;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between ;
+}
+
+footer ul
+{
+    list-style: none;
+    font-size: x-small;
+    padding-right: 200px
+}
