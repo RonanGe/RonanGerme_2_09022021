@@ -191,6 +191,7 @@ nav p
     padding-left: 10px;
 }
 
+
 #afficher
 {
     font-size: x-small;
@@ -241,6 +242,12 @@ nav p
     text-decoration: none;
     color: #0065FC;
     padding-left: 5px;
+    display: flex;
+}
+
+.stars_blank
+{
+    color: #F2F2F2;
 }
 
 #amina
@@ -341,9 +348,14 @@ section
     padding-left: 0px;
 }
 
-#text_eau i, #text_soleil i, #text_blanc i
+#starsE, #starsS, #starsB
 {
     color: #0065FC;
+}
+
+.stars_blank_b
+{
+    color: #F2F2F2;
 }
 
 article h2
