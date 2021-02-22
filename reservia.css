@@ -368,7 +368,7 @@ article h2
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    align-content: space-between;
+    height: auto;
 }
 
 #Activités h3
@@ -384,7 +384,7 @@ article h2
     border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 330px;
+    width: 30%;
     font-size: small;
     text-decoration: none;
     margin-right: 10px;
@@ -395,7 +395,7 @@ article h2
 {
     border-radius: 10px 10px 0px 0px;
     height: 500px; 
-    width: 330px;
+    width: 100%;
     margin-right: 10px;
 }
 
@@ -406,7 +406,6 @@ article h2
     border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 330px;
     font-size: small;
     text-decoration: none;
     margin-right: 10px;
@@ -415,8 +414,7 @@ article h2
 #Fort img
 {
     border-radius: 10px 10px 0px 0px;
-    height: 200px; 
-    width: 330px;
+    width: 100%;
     margin-right: 10px;
 }
 
@@ -427,7 +425,6 @@ article h2
     border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 330px;
     font-size: small;
     text-decoration: none;
     margin-right: 10px;
@@ -436,8 +433,7 @@ article h2
 #Iles img
 {
     border-radius: 10px 10px 0px 0px;
-    height:175px; 
-    width: 330px;
+    width: 100%;
     margin-right: 10px;
 }
 
@@ -445,6 +441,12 @@ article h2
 {
     display: flex;
     flex-direction: column;
+    width: 20%;
+}
+
+#fort_iles img
+{
+    height: 190px;
 }
 
 #calanques
@@ -454,7 +456,7 @@ article h2
     border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 330px;
+    width: 30%;
     font-size: small;
     text-decoration: none;
     margin-right: 10px;
@@ -464,20 +466,21 @@ article h2
 {
     border-radius: 10px 10px 0px 0px;
     height: 500px; 
-    width: 330px;
+    width: 100%;
     margin-right: 10px;
+    margin-left: 0px;
 }
 
 #garde_longchamp
 {
     display: flex;
     flex-direction: column;
+    width:20% ;
 }
 
 #Garde
 {
     background-color: white;
-    width: 330px;
     box-shadow: 6px 6px 10px #F2F2F2;
     border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
@@ -485,13 +488,14 @@ article h2
     font-size: small;
     text-decoration: none;
     margin-right: 0px;
+    padding-left: 0px;
 }
 
 #Garde img
 {
     border-radius: 10px 10px 0px 0px;
-    height:175px; 
-    width: 330px;
+    height:168px; 
+    width: 100%;
     margin-right: 0px;
 }
 
@@ -502,7 +506,6 @@ article h2
     border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 330px;
     font-size: small;
     text-decoration: none;
     margin-right: 0px;
@@ -511,8 +514,8 @@ article h2
 #Longchamp img
 {
     border-radius: 10px 10px 0px 0px;
-    width: 330px;
-    height: 200px;
+    width: 100%;
+    height: 193px;
     margin-right: 0px;
 }
 
@@ -530,3 +533,110 @@ footer ul
     font-size: x-small;
     padding-right: 200px
 }
+
+
+@media screen and (min-width: 1440px)
+{
+    body
+    {
+        width: auto;
+    }
+
+    #hébergements
+    {
+        width: 70%;
+    }
+
+    #populaires
+    {
+        width: auto;
+    }
+
+    #cannebière, #port, #mouettes, #mer, #panier, #amina
+    {
+        width: 25%;
+    
+    }
+
+    #cannebière img, #port img, #mouettes img, #mer img, #panier img, #amina img
+    {
+        width: 100%;
+    }
+
+    #Activités
+    {
+        width: auto;
+    }
+
+    #Vieux_port, #calanques
+    {
+        width: 400px;
+    }
+
+    #Vieux_port img, #calanques img
+    {
+        width: 100%;
+    }
+
+    #fort_iles, #garde_longchamp
+    {
+        width: 20%;
+    }
+
+    #fort_iles img, #garde_lonchamp img
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1440px)
+{
+    body
+    {
+        width: auto;
+    }
+
+    #hébergements
+    {
+        width: auto;
+    }
+
+    #cannebière, #port, #mouettes, #mer, #panier, #amina
+    {
+        width: 25%;
+    
+    }
+
+    #cannebière img, #port img, #mouettes img, #mer img, #panier img, #amina img
+    {
+        width: 100%;
+    }
+
+    #Activités
+    {
+        width: auto;
+
+    }
+
+    #Vieux_port, #calanques
+    {
+        width: 380px;
+    }
+
+    #Vieux_port img, #calanques img
+    {
+        width: 100%;
+        height: 500px;
+    }
+
+    #fort_iles, #garde_longchamp
+    {
+        width: 20%;
+    }
+
+    #fort_iles img, #garde_lonchamp img
+    {
+        width:100%;
+    }
+}
+
