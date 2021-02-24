@@ -1,0 +1,1181 @@
+body
+{
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.titre
+{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    vertical-align: top;
+    height: 100%
+}
+
+header
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+header ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none ; 
+    vertical-align: top;
+    margin-top: 15px;
+}
+
+header li
+{
+    display: flex;
+    margin-right: 15px;
+    font-size: small;
+}
+
+header li:hover
+{
+   color: #0065FC; 
+   text-decoration: overline;
+}
+
+header a:hover
+{
+    color: #0065FC;
+    text-decoration: overline;
+}
+
+a
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited
+{
+    color: black;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: black;
+    text-decoration: none;
+}
+
+
+h2
+{
+    font-size: large;
+    font-weight: bolder;
+    margin-bottom: auto;
+    padding-bottom: 2px;
+}
+
+
+nav p
+{
+    font-size: smaller;
+    padding-top: 2px;
+    height: 15px;
+}
+
+.fa-map-marker-alt
+{
+    background: #F2F2F2;
+    font-size: small;
+    border: 10px #F2F2F2 solid;
+    border-radius: 10px 0px 0px 10px;
+    width: 20px;
+}
+
+.rechercher
+{
+   display: flex;
+   height: 45px;
+   font-size: small;
+   margin-top: 25px;
+}
+
+.bouton_rechercher
+{
+    color: white;
+    background:#0065FC;
+    border: 10px #0065FC solid;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.filtres, p, .cash, .child, .heart, .dog
+{
+    display: flex;
+    align-items: center;
+    margin: -2px;
+    padding-right: 5px;
+    justify-content:left;
+    margin-right: 15px;
+}
+
+.filtres p
+{
+    font-weight: bold;
+    margin-right: 8px;
+    margin-top: -5px;
+}
+
+.filtres .fa-money-bill, .fa-child, .fa-heart, .fa-dog
+{
+    color:#0065FC;
+    background-color: #DEEBFF; 
+    border: 8px #DEEBFF solid;
+    border-radius: 50%; 
+}
+
+.cash, .child, .heart, .dog
+{
+    border: 2px #F2F2F2 solid;
+    border-radius:30px;
+    width: auto;
+}
+
+.money, .famille, .romantique, .animaux
+{
+    background-color: white;
+    border: 2px white solid;
+    font-weight: bold;
+}
+
+.filtres :hover
+{
+    text-decoration: underline;
+    color: #0065FC;
+}
+
+.info
+{
+    font-size: smaller;
+}
+
+.fa-info-circle
+{
+    color:#0065FC;
+}
+#hébergements
+{
+    background-color: #F2F2F2;
+    border-radius: 30px ;
+    width: 80%;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+#logements
+{
+    display: flex;
+    flex-wrap:wrap;
+}  
+
+#hébergements h2
+{
+    font-size: small;
+    padding-left: 10px;
+}
+
+
+#afficher
+{
+    font-size: x-small;
+    text-decoration: none;
+    color : black;
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+
+#cannebière, #port, #mouettes, #mer, #panier
+{
+    background-color: white;
+    border: 4px white solid;
+    border-radius: 10px 10px 20px 20px;
+    width: 250px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#cannebière img, #port img, #mouettes img, #mer img, #panier img
+{
+    border-radius: 10px 10px 0px 0px;
+    width: 250px;
+    height: 144px;
+}
+
+#cannebière_text , #port_text, #mouettes_text, #mer_text, #panier_text
+{
+    font-size: smaller;
+    text-decoration: none ;
+    color:black;
+    font-weight: bold;
+    padding-left: 5px;
+}
+
+#prixC , #prixP, #prixM, #prixMer, #prixPanier
+{
+    font-size: smaller;
+    text-decoration: none;
+    color: black;
+    padding-left: 5px;
+}
+
+#stars , #starsP, #starsM, #starsMer, #starspanier
+{
+    font-size: smaller;
+    text-decoration: none;
+    color: #0065FC;
+    padding-left: 5px;
+    display: flex;
+}
+
+.stars_blank
+{
+    color: #F2F2F2;
+}
+
+#amina
+{
+    background-color: white;
+    border: 4px white solid;
+    border-radius: 10px 10px 20px 20px;
+    width: 250px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#amina img
+{
+    border-radius: 10px 10px 0px 0px;
+    width: 250px;
+    height: 144px;
+}
+
+#amina_text
+{
+    font-size: smaller;
+    text-decoration: none ;
+    color:black;
+    font-weight: bold;
+}
+
+#prixA
+{
+    font-size: smaller;
+    text-decoration: none;
+    color: black;
+}
+
+#starsA
+{
+    font-size: smaller;
+    text-decoration: none;
+    color: #0065FC;
+}
+
+section
+{
+    display: flex;
+}
+#populaires
+{
+    background-color: #F2F2F2;
+    border-radius: 30px ;
+    width: auto;
+    margin-right: 5px;
+    margin-top: 5px;
+    padding-top: 15px;
+    margin-left: 30px;
+    padding-bottom: 15px;
+    padding-right: 17px;
+}
+
+#populaires h3
+{
+    font-size: small;
+    padding-left: 10px;
+}
+
+#eau, #soleil, #blanc
+{
+    background-color: white;
+    border: 4px white solid;
+    border-radius: 10px 10px 20px 19px;
+    width: 400px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+
+#eau img, #soleil img, #blanc img
+{
+    border-radius: 10px 0px 0px 10px;
+    height: 150px; 
+    width: 160px;
+    margin-right: 15px;
+}
+
+#text_eau, #text_soleil, #text_blanc
+{
+    font-size: smaller;
+    text-decoration: none ;
+    color:black;
+    display: flex;
+    align-content: space-around;
+}
+
+#text_eau h3, #text_soleil h3, #text_blanc h3
+{
+    margin-bottom: 4px;
+    padding-left: 0px;
+}
+
+#starsE, #starsS, #starsB
+{
+    color: #0065FC;
+}
+
+.stars_blank_b
+{
+    color: #F2F2F2;
+}
+
+article h2
+{
+    font-size: small;
+}
+
+#Activités
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    height: auto;
+}
+
+#Activités h3
+{
+    font-size: x-small;
+    padding-left: 20px;
+}
+
+#Vieux_port
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 30%;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+#Vieux_port img
+{
+    border-radius: 10px 10px 0px 0px;
+    height: 500px; 
+    width: 100%;
+    margin-right: 10px;
+}
+
+#Fort
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#Fort img
+{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+#Iles
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#Iles img
+{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    margin-right: 10px;
+}
+
+#fort_iles
+{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+}
+
+#fort_iles img
+{
+    height: 190px;
+}
+
+#calanques
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 30%;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+#calanques img
+{
+    border-radius: 10px 10px 0px 0px;
+    height: 500px; 
+    width: 100%;
+    margin-right: 10px;
+    margin-left: 0px;
+}
+
+#garde_longchamp
+{
+    display: flex;
+    flex-direction: column;
+    width:20% ;
+}
+
+#Garde
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+
+#Garde img
+{
+    border-radius: 10px 10px 0px 0px;
+    height:168px; 
+    width: 100%;
+    margin-right: 0px;
+}
+
+#Longchamp
+{
+    background-color: white;
+    box-shadow: 6px 6px 10px #F2F2F2;
+    border-bottom: 4px white solid;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: small;
+    text-decoration: none;
+    margin-right: 0px;
+}
+
+#Longchamp img
+{
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    height: 193px;
+    margin-right: 0px;
+}
+
+footer
+{
+    background-color: #F2F2F2;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between ;
+}
+
+footer ul
+{
+    list-style: none;
+    font-size: x-small;
+    padding-right: 200px
+}
+
+
+@media screen and (min-width: 1440px)
+{
+    body
+    {
+        width: auto;
+    }
+
+    #hébergements
+    {
+        width: 70%;
+    }
+
+    #populaires
+    {
+        width: auto;
+    }
+
+    #cannebière, #port, #mouettes, #mer, #panier, #amina
+    {
+        width: 25%;
+    
+    }
+
+    #cannebière img, #port img, #mouettes img, #mer img, #panier img, #amina img
+    {
+        width: 100%;
+    }
+
+    #Activités
+    {
+        width: auto;
+    }
+
+    #Vieux_port, #calanques
+    {
+        width: 400px;
+    }
+
+    #Vieux_port img, #calanques img
+    {
+        width: 100%;
+    }
+
+    #fort_iles, #garde_longchamp
+    {
+        width: 20%;
+    }
+
+    #fort_iles img, #garde_lonchamp img
+    {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1440px)
+{
+    body
+    {
+        width: auto;
+    }
+
+    #hébergements
+    {
+        width: auto;
+    }
+
+    #populaires
+    {
+        height: 94%;
+    }
+
+    #cannebière, #port, #mouettes, #mer, #panier, #amina
+    {
+        width: 25%;
+    
+    }
+
+    #cannebière img, #port img, #mouettes img, #mer img, #panier img, #amina img
+    {
+        width: 100%;
+    }
+
+    #Activités
+    {
+        width: auto;
+
+    }
+
+    #Vieux_port, #calanques
+    {
+        width: 380px;
+    }
+
+    #Vieux_port img, #calanques img
+    {
+        width: 100%;
+        height: 500px;
+    }
+
+    #fort_iles, #garde_longchamp
+    {
+        width: 20%;
+    }
+
+    #fort_iles img, #garde_lonchamp img
+    {
+        width:100%;
+    }
+}
+
+@media screen and (width: 1024px)
+{
+    body
+    {
+        width: auto;
+    }
+
+    #hébergements
+    {
+        width: auto;
+    }
+
+    section 
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #populaires
+    {
+        width: auto;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    #pop
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cannebière, #port, #mouettes, #mer, #panier, #amina
+    {
+        width: 25%;
+    
+    }
+
+    #cannebière img, #port img, #mouettes img, #mer img, #panier img, #amina img
+    {
+        width: 100%;
+    }
+
+    #Activités
+    {
+        width: auto;
+
+    }
+
+    #Vieux_port, #calanques
+    {
+        width: 280px;
+    }
+
+    #Vieux_port img, #calanques img
+    {
+        width: 100%;
+        height: 400px;
+    }
+
+    #fort_iles, #garde_longchamp
+    {
+        width: 18%;
+    }
+
+    #fort_iles img
+    {
+        width:100%;
+        height: 115px;
+    }
+
+    #Garde img
+    {
+        width:100%;
+        height: 100px;
+    }
+
+    #Longchamp img
+    {
+        width: 100%;
+        height: 135px;
+    }
+
+    footer ul
+    {
+        padding-right: 10px;
+    }
+}
+
+@media all and (device-width: 768px)
+{
+    body
+    {
+        width: auto;
+    }
+
+    #hébergements
+    {
+        width: auto;
+    }
+
+    section 
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #populaires
+    {
+        width: auto;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    #pop
+    {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #cannebière, #port, #mouettes, #mer, #panier, #amina
+    {
+        width: 25%;
+    
+    }
+
+    #cannebière img, #port img, #mouettes img, #mer img, #panier img, #amina img
+    {
+        width: 100%;
+    }
+
+
+    #Activités
+    {
+        width: auto;
+
+    }
+
+    #Vieux_port, #calanques
+    {
+        width: 250px;
+        margin-left: 15px;
+    }
+
+    #Vieux_port img, #calanques img
+    {
+        width: 250px;
+        height: 144px;
+    }
+
+    #fort_iles, #garde_longchamp
+    {
+        width:50%;
+        flex-direction: row;
+    }
+
+    #Fort
+    {
+        width: 250px;
+    }
+
+    #Iles
+    {
+        width: 250px;
+        padding-left: 5px;
+    }
+
+    #fort_iles img
+    {
+        width:250px;
+        height: 144px;
+    }
+
+
+    #Garde
+    {
+        width: 250px;
+    }
+
+    #Garde img
+    {
+        width: 250px;
+        height: 144px;
+    }
+
+    #Longchamp
+    {
+        width: 250px;
+        padding-left: 11px;
+    }
+
+    #Longchamp img
+    {
+        width: 250px;
+        height: 144px;
+    }
+
+    footer ul
+    {
+        padding-right: 10px;
+    }
+}
+
+@media all and (max-device-width: 425px)
+{
+    body
+    {
+        width: auto;
+    }
+
+    h2, h3
+    {
+        font-weight: bolder;
+    }
+
+    header
+    {
+        width: 100%;
+        align-items: flex-start;
+        justify-content:right;
+        font-size: medium;
+    }
+
+    header p
+    {
+        font-size: medium;
+    }
+    header ul
+    {
+        flex-direction: row-reverse;
+        width: 100%;
+        color: #0065FC;
+        font-weight: bold;
+    }
+
+    header li
+    {
+        font-size: medium;
+    }
+
+    nav h2
+    {
+        font-size: medium;
+        margin-left: 10px;
+    }
+
+    nav p
+    {
+        margin-top: 10px;
+        margin-left: 15px;
+        font-size: medium;
+    }
+
+    .fa-map-marker-alt
+    {
+        background: #F2F2F2;
+        font-size: mediums;
+        border: 10px #F2F2F2 solid;
+        border-radius: 10px 0px 0px 10px;
+        width: 20px;
+        height: 30px;
+    }
+
+    .rechercher
+    {
+    display: flex;
+    height: 45px;
+    font-size: small;
+    margin-top: 25px;
+    width: 100%;
+    font-size: medium;
+    }
+
+    .champs_recherche
+    {
+        width: 80%;
+        font-size: medium;
+        height: 50px;
+    }
+    .bouton_rechercher
+    {
+        color: white;
+        background:#0065FC;
+        border: 10px #0065FC solid;
+        border-radius: 0px 10px 10px 0px;
+        width: 17%;
+        height: 50px;
+        font-size: medium;
+    }
+
+    .filtres
+    {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .filtres p
+    {
+        font-size: medium;
+        width: 100%;
+        margin-left: 15px;
+    }
+
+    .cash, .child, .heart, .dog
+    {
+        display: flex;
+        flex-direction: row;
+        align-items:flex-start;
+        font-size: large;
+        width: 45%;
+        margin-top: 15px;
+        margin-left: 22px;
+    }
+
+    .money, .famille, .romantique, .animaux
+    {
+        font-size: medium;
+        width: 100%;
+    }
+    
+    .info
+    {
+        font-size: medium;
+        width: 100%;
+    }
+
+    .fa-info-circle
+    {
+        font-size: medium;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+
+    #hébergements
+    {
+        width: auto;
+    }
+
+    section 
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #populaires
+    {
+        width: auto;
+        margin-left: 0px;
+        margin-right: 5px;
+    }
+
+    #pop
+    {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    #populaires h3
+    {
+        font-size: large;
+    }
+
+    #populaires h3 i
+    {
+        padding-left: 550px;
+    }
+
+    #soleil, #eau, #blanc
+    {
+        width: 95%;
+        margin-left: 15px;
+    }
+
+    #soleil img, #eau img, #blanc img
+    {
+        width: 33%;
+        height: 200px;
+    }
+
+    #text_water, #text_sun, #text_white
+    {
+        font-size: large;
+        padding-left: 20px;
+    }
+
+    #logements
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #hébergements h2
+    {
+        font-size: larger;
+    }
+
+    #cannebière, #port, #mouettes, #mer, #panier, #amina
+    {
+        width: 95%;
+        margin-left: 20px;
+        height: 440px;
+        font-size: large;
+    }
+
+    #cannebière img, #port img, #mouettes img, #mer img, #panier img, #amina img
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    #cannebière_text, #port_text, #mouettes_text, #mer_text, #panier_text
+    {
+        font-size: large;
+    }
+
+    #amina_text
+    {
+        font-size: large;
+        padding-left: 5px;
+    }
+
+    #prixC, #prixP, #prixM, #prixMer, #prixPanier
+    {
+        font-size: large;
+    }
+
+    #prixA
+    {
+        font-size: large;
+        padding-left: 5px;
+    }
+
+    #stars, #starsP, #starsM, #starsMer, #starspanier
+    {
+        font-size: large;
+        margin-top: 5px;
+    }
+
+    #starsA
+    {
+        font-size: large;
+        padding-left: 5px;
+        margin-top: 5px;
+    }
+
+    #afficher
+    {
+        font-size: large;
+        padding-left: 15px;
+    }
+
+    article h2
+    {
+        font-size: larger;
+        margin-left: 15px;
+    }
+
+    #Activités
+    {
+        width: auto;
+        font-size: larger;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Activités h3
+    {
+        font-size: large;
+    }
+
+    #Vieux_port, #calanques
+    {
+        width: 90%;
+        margin-left: 40px;
+    }
+
+    #Vieux_port img, #calanques img
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    #fort_iles, #garde_longchamp
+    {
+        width:95%;
+    }
+
+    #Fort
+    {
+        width: 95%;
+    }
+
+    #Iles
+    {
+        width: 95%;
+    }
+
+    #fort_iles img
+    {
+        width:100%;
+        height: 300px;
+    }
+
+
+    #Garde
+    {
+        width: 95%;
+    }
+
+    #Garde img
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    #Longchamp
+    {
+        width: 95%;
+    }
+
+    #Longchamp img
+    {
+        width: 100%;
+        height: 300px;
+    }
+
+    footer
+    {
+        display: flex;
+        flex-direction: column;
+        font-size: large;
+        justify-content: center;
+    }
+    footer ul
+    {
+        font-size: small;
+    }
+}
