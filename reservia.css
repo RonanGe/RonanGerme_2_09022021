@@ -175,12 +175,36 @@ nav p
     display: inline-block;
     vertical-align: top;
 }
+
 #logements
 {
-    display: flex;
-    flex-wrap:wrap;
-    vertical-align: top;
-}  
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px;
+}
+#Cannebiere
+{
+    grid-column: 1;
+    grid-row: 1;
+}
+
+#cannebiere.vignetteH, #port.vignetteH, #mouettes.vignetteH, #mer.vignetteH, #panier.vignetteH, #amina.vignetteH
+{
+    width: 250px;
+}
+#Port
+{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+#Mouette
+{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+
 
 #hebergements h2
 {
@@ -196,27 +220,27 @@ nav p
     color : black;
     padding-left: 5px;
     padding-bottom: 15px;
+
 }
 
-#cannebiere, #port, #mouettes, #mer, #panier
+.vignetteH
 {
     background-color: white;
     border: 4px white solid;
     border-radius: 10px 10px 20px 20px;
-    width: 250px;
     font-size: small;
     text-decoration: none;
     margin-right: 15px;
 }
 
-#cannebiere img, #port img, #mouettes img, #mer img, #panier img
+.vignetteH img
 {
     border-radius: 10px 10px 0px 0px;
     width: 250px;
     height: 144px;
 }
 
-#cannebiere_text , #port_text, #mouettes_text, #mer_text, #panier_text
+.vignetteH h3
 {
     font-size: smaller;
     text-decoration: none ;
@@ -225,7 +249,7 @@ nav p
     padding-left: 5px;
 }
 
-#prixC , #prixP, #prixM, #prixMer, #prixPanier
+.vignetteH p
 {
     font-size: smaller;
     text-decoration: none;
@@ -247,39 +271,6 @@ nav p
     color: #F2F2F2;
 }
 
-#amina
-{
-    background-color: white;
-    border: 4px white solid;
-    border-radius: 10px 10px 20px 20px;
-    width: 250px;
-    font-size: small;
-    text-decoration: none;
-    margin-right: 15px;
-}
-
-#amina img
-{
-    border-radius: 10px 10px 0px 0px;
-    width: 250px;
-    height: 144px;
-}
-
-#amina_text
-{
-    font-size: smaller;
-    text-decoration: none ;
-    color:black;
-    font-weight: bold;
-}
-
-#prixA
-{
-    font-size: smaller;
-    text-decoration: none;
-    color: black;
-}
-
 #starsA
 {
     font-size: smaller;
@@ -291,6 +282,7 @@ section
 {
     display: flex;
 }
+
 #populaires
 {
     background-color: #F2F2F2;
@@ -321,6 +313,10 @@ section
     margin-right: 15px;
 }
 
+#Eau, #Blanc
+{
+    padding-top: 15px;
+}
 
 #eau img, #soleil img, #blanc img
 {
