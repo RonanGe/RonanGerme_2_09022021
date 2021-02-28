@@ -190,7 +190,7 @@ nav p
 
 #cannebiere.vignetteH, #port.vignetteH, #mouettes.vignetteH, #mer.vignetteH, #panier.vignetteH, #amina.vignetteH
 {
-    width: 250px;
+    width: 90%;
 }
 #Port
 {
@@ -440,6 +440,7 @@ article h2
 #fort_iles img
 {
     height: 190px;
+    width: 100%;
 }
 
 #calanques
@@ -487,7 +488,7 @@ article h2
 #Garde img
 {
     border-radius: 10px 10px 0px 0px;
-    height:168px; 
+    height:180px; 
     width: 100%;
     margin-right: 0px;
 }
@@ -508,7 +509,7 @@ article h2
 {
     border-radius: 10px 10px 0px 0px;
     width: 100%;
-    height: 193px;
+    height: 200px;
     margin-right: 0px;
 }
 
@@ -893,7 +894,7 @@ footer ul
     .fa-map-marker-alt
     {
         background: #F2F2F2;
-        font-size: mediums;
+        font-size: medium;
         border: 10px #F2F2F2 solid;
         border-radius: 10px 0px 0px 10px;
         width: 20px;
@@ -930,7 +931,9 @@ footer ul
     .filtres
     {
         width: 100%;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 100px 100px 100px 100px;
     }
 
     .filtres p
@@ -940,13 +943,34 @@ footer ul
         margin-left: 15px;
     }
 
+    .cash
+    {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    .child
+    {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .heart
+    {
+        grid-column: 1;
+        grid-row: 3;
+    }
+
+    .dog
+    {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
     .cash, .child, .heart, .dog
     {
-        display: flex;
-        flex-direction: row;
-        align-items:flex-start;
         font-size: large;
-        width: 45%;
+        width: 65%;
         margin-top: 15px;
         margin-left: 22px;
     }
@@ -1036,9 +1060,7 @@ footer ul
 
     #cannebiere, #port, #mouettes, #mer, #panier, #amina
     {
-        width: 95%;
         margin-left: 20px;
-        height: 440px;
         font-size: large;
     }
 
