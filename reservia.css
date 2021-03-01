@@ -857,7 +857,6 @@ footer ul
     {
         width: 100%;
         align-items: flex-start;
-        justify-content:right;
         font-size: medium;
     }
 
@@ -867,15 +866,31 @@ footer ul
     }
     header ul
     {
-        flex-direction: row-reverse;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
         width: 100%;
         color: #0065FC;
         font-weight: bold;
     }
 
-    header li
+    header li 
     {
         font-size: medium;
+    }
+
+    header a
+    {
+        padding-top: 70px;
+        width: 300px;
+        text-decoration:underline;
+        text-decoration-color: #F2F2F2;
+        text-underline-offset: 1em;
+    }
+
+    header a :hover
+    {
+        text-decoration-color:#0065FC;
+        color: #0065FC;
     }
 
     nav h2
