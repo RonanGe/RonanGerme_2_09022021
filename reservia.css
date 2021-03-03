@@ -856,8 +856,8 @@ footer ul
     header
     {
         width: 100%;
-        align-items: flex-start;
         font-size: medium;
+        align-items: flex-start;
     }
 
     header p
@@ -866,11 +866,11 @@ footer ul
     }
     header ul
     {
-        flex-direction: row;
-        flex-wrap: wrap-reverse;
         width: 100%;
         color: #0065FC;
         font-weight: bold;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
     }
 
     header li 
@@ -882,14 +882,31 @@ footer ul
     {
         padding-top: 70px;
         width: 300px;
-        text-decoration:underline;
-        text-decoration-color: #F2F2F2;
-        text-underline-offset: 1em;
+        padding-left: 80px;
     }
+
+    .inscription
+    {
+        padding-left: 600px;
+    }
+
+    .menuH
+    {
+        border-bottom: 6px #F2F2F2 solid;
+        padding-bottom: 15px;
+        margin-right: 0;
+    }
+
+    .menuA
+    {
+        border-bottom: 6px #F2F2F2 solid;
+        padding-bottom: 15px;
+    }
+
 
     header a :hover
     {
-        text-decoration-color:#0065FC;
+        border-bottom: 6px #F2F2F2 solid;
         color: #0065FC;
     }
 
