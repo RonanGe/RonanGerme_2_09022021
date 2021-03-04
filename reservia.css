@@ -864,6 +864,8 @@ footer ul
     header p
     {
         font-size: medium;
+        height: 70px;
+        width: 50px;
     }
     header ul
     {
@@ -872,6 +874,7 @@ footer ul
         font-weight: bold;
         flex-direction: row;
         flex-wrap: wrap-reverse;
+        padding-left: 0px;
     }
 
     header li 
@@ -882,26 +885,27 @@ footer ul
     header a
     {
         padding-top: 70px;
-        width: 300px;
+        width: 335px;
         padding-left: 80px;
     }
 
     .inscription
     {
-        padding-left: 600px;
+        padding-left: 700px;
     }
 
     .menuH
     {
         border-bottom: 6px #F2F2F2 solid;
         padding-bottom: 15px;
-        margin-right: 0;
     }
 
     .menuA
     {
         border-bottom: 6px #F2F2F2 solid;
         padding-bottom: 15px;
+        margin-right: 0px;
+        width: 35%;
     }
 
 
