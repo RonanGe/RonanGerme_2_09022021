@@ -936,25 +936,30 @@ footer ul
 
     header
     {
+        display: inline-block;
         width: 100%;
         font-size: medium;
         align-items: flex-start;
+        background: none;
     }
 
-    header p
+    .Reservia_logo
     {
         font-size: medium;
-        height: 70px;
-        width: 40%;
+        height: 150px;
+        width: 96%;
+        border-width: 10px;
     }
     header ul
-    {
+    {   
         width: 100%;
         color: #0065FC;
         font-weight: bold;
         flex-direction: row;
         flex-wrap: wrap-reverse;
         padding-left: 0px;
+        border: none;
+        background: none;
     }
 
     header li 
@@ -971,28 +976,39 @@ footer ul
 
     .inscription
     {
-        padding-left: 500px;
+        position: fixed;
+        top: 8px;
+        right: 2px;
     }
 
     .menuH
     {
         border-bottom: 6px #F2F2F2 solid;
-        padding-bottom: 15px;
+        position:fixed;
+        top: 20px;
+        left: 50px;
+        width: 45%;
     }
 
     .menuA
     {
         border-bottom: 6px #F2F2F2 solid;
-        padding-bottom: 15px;
-        margin-right: 0px;
-        width: 35%;
+        position: fixed;
+        top: 20px;
+        right:0px;
+        width:45%;
     }
 
 
     header a :hover
     {
-        border-bottom: 6px #F2F2F2 solid;
+        border-bottom: 6px #0065FC solid;
         color: #0065FC;
+    }
+
+    nav
+    {
+        margin-top: 150px;
     }
 
     nav h2
