@@ -90,7 +90,7 @@ nav p
     font-size: small;
     border: 10px #F2F2F2 solid;
     border-radius: 10px 0px 0px 10px;
-    width: 20px;
+    width:1.5%;
 }
 
 .rechercher
@@ -179,7 +179,7 @@ nav p
 #logements
 {
     display: grid;
-    grid-template-columns: 300px 300px 300px;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
 }
 #Cannebiere
@@ -236,7 +236,7 @@ nav p
 .vignetteH img
 {
     border-radius: 10px 10px 0px 0px;
-    width: 250px;
+    width: 100%;
     height: 144px;
 }
 
@@ -247,6 +247,8 @@ nav p
     color:black;
     font-weight: bold;
     padding-left: 5px;
+    margin-bottom: 10px ;
+    margin-top: 10px;
 }
 
 .vignetteH p
@@ -255,6 +257,7 @@ nav p
     text-decoration: none;
     color: black;
     padding-left: 5px;
+    margin-bottom: 10px;
 }
 
 #stars , #starsP, #starsM, #starsMer, #starspanier
@@ -291,7 +294,7 @@ section
     margin-right: 5px;
     margin-top: 5px;
     padding-top: 15px;
-    margin-left: 30px;
+    margin-left: 15px;
     padding-bottom: 15px;
     padding-right: 17px;
 }
@@ -307,10 +310,10 @@ section
     background-color: white;
     border: 4px white solid;
     border-radius: 10px 10px 20px 19px;
-    width: 400px;
+    width: 91%;
     font-size: small;
     text-decoration: none;
-    margin-right: 15px;
+    margin-inline-start: 20px;
 }
 
 #Eau, #Blanc
@@ -322,7 +325,7 @@ section
 {
     border-radius: 10px 0px 0px 10px;
     height: 150px; 
-    width: 160px;
+    width: 35%;
     margin-right: 15px;
 }
 
@@ -407,7 +410,7 @@ article h2
 #Fort img
 {
     border-radius: 10px 10px 0px 0px;
-    width: 100%;
+    width: 50%;
     margin-right: 10px;
 }
 
@@ -565,7 +568,7 @@ footer ul
 
     #Vieux_port, #calanques
     {
-        width: 400px;
+        width: auto;
     }
 
     #Vieux_port img, #calanques img
@@ -598,13 +601,28 @@ footer ul
 
     #populaires
     {
-        height: 94%;
+        height: 95%;
     }
 
-    #cannebiere, #port, #mouettes, #mer, #panier, #amina
+   .vignetteP
+   {
+       width: 45%;
+   }
+
+    #eau img, #soleil img
     {
-        width: 25%;
-    
+        width: 37%;
+    }
+
+    #blanc img
+    {
+        width:49% ;
+    }
+
+    .vignetteH
+    {
+        width: 15%;
+        margin-inline-start: 17px;
     }
 
     #cannebiere img, #port img, #mouettes img, #mer img, #panier img, #amina img
@@ -615,12 +633,12 @@ footer ul
     #Activites
     {
         width: auto;
-
     }
+
 
     #Vieux_port, #calanques
     {
-        width: 380px;
+        width:17em;
     }
 
     #Vieux_port img, #calanques img
@@ -669,7 +687,19 @@ footer ul
     {
         display: flex;
         flex-wrap: wrap;
+        width: 85%;
     }
+
+    .vignetteP
+    {
+        width: 85%;
+    }
+    
+    #eau img, #soleil img, #blanc img
+    {
+        width: 30%;
+    }
+   
 
     #cannebiere, #port, #mouettes, #mer, #panier, #amina
     {
@@ -690,7 +720,8 @@ footer ul
 
     #Vieux_port, #calanques
     {
-        width: 280px;
+        width: 12em;
+        height: 480px;
     }
 
     #Vieux_port img, #calanques img
@@ -757,7 +788,19 @@ footer ul
     {
         display: flex;
         flex-wrap: wrap;
+        width: 89%;
     }
+
+    #blanc img, #eau img, #soleil img
+    {
+        width: 30%;
+    }
+
+    .starsPop
+    {
+        margin-top: 30px;
+    }
+
 
     #cannebiere, #port, #mouettes, #mer, #panier, #amina
     {
@@ -774,66 +817,67 @@ footer ul
     #Activites
     {
         width: auto;
-
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 300px 300px;
     }
 
-    #Vieux_port, #calanques
+    .vignetteA
     {
-        width: 250px;
-        margin-left: 15px;
+        width: 100%;
+    }
+
+
+    #Vieux
+    {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #Vieux_port.vignetteA, #Fort.vignetteA, #Iles.vignetteA, #calanques.vignetteA, #Garde.vignetteA, #Longchamp.vignetteA
+    {
+        width: 90%;
     }
 
     #Vieux_port img, #calanques img
     {
-        width: 250px;
+        width: 100%;
         height: 144px;
     }
 
-    #fort_iles, #garde_longchamp
+    #calanques, #Vieux_port
     {
-        width:50%;
-        flex-direction: row;
+        margin-inline-start: 20px;
     }
 
-    #Fort
+    #Pomegues
     {
-        width: 250px;
+        grid-column: 2;
+        grid-row: 1;
     }
 
-    #Iles
+    #frioul
     {
-        width: 250px;
-        padding-left: 5px;
+        grid-column: 3;
+        grid-row: 1;
     }
 
-    #fort_iles img
+    #Calanques
     {
-        width:250px;
-        height: 144px;
+        grid-column: 1;
+        grid-row: 2;
     }
 
-
-    #Garde
+    #Dame
     {
-        width: 250px;
+        grid-column: 2;
+        grid-row: 2;
     }
 
-    #Garde img
+    #longchamp
     {
-        width: 250px;
-        height: 144px;
-    }
-
-    #Longchamp
-    {
-        width: 250px;
-        padding-left: 11px;
-    }
-
-    #Longchamp img
-    {
-        width: 250px;
-        height: 144px;
+        grid-column: 3;
+        grid-row: 2;
     }
 
     footer ul
