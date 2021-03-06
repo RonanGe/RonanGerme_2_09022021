@@ -4,21 +4,24 @@ body
     font-family: 'Raleway', sans-serif;
 }
 
-.titre
+.Reservia_logo
 {
-    display: flex;
-    flex-direction: row;
-    align-items: baseline;
-    vertical-align: top;
-    height: 100%
+    position: fixed;
+    top: 5px;
+    left: 0;
+    padding-left: 15px;
+    width: 100%;
+    background-color: #F2F2F2;
+    border: 20px #F2F2F2 solid;
+    border-radius: 10px 10px 10px 10px;
 }
 
 header
 {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
+    display: inline-block;
     justify-content: space-between;
+    width: 100%;
+    height: 60px;
 }
 
 header ul
@@ -27,7 +30,14 @@ header ul
     flex-wrap: wrap;
     list-style: none ; 
     vertical-align: top;
-    margin-top: 15px;
+    margin-top: 5px;
+    padding-top: 8px;
+    position: fixed;
+    top:5px;
+    right: 0;
+    background-color: #F2F2F2;
+    border: 20px #F2F2F2 solid;
+    border-radius: 10px 10px 10px 10px;
 }
 
 header li
@@ -37,10 +47,10 @@ header li
     font-size: small;
 }
 
-header li:hover
+header a:hover
 {
    color: #0065FC; 
-   text-decoration: overline;
+   border-top: 2px #0065FC solid;
 }
 
 header a:hover
@@ -568,7 +578,7 @@ footer ul
 
     #Vieux_port, #calanques
     {
-        width: auto;
+        width: 17em;
     }
 
     #Vieux_port img, #calanques img
@@ -578,7 +588,7 @@ footer ul
 
     #fort_iles, #garde_longchamp
     {
-        width: 20%;
+        width: 21%;
     }
 
     #fort_iles img, #garde_lonchamp img
