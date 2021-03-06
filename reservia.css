@@ -832,17 +832,43 @@ footer ul
     {
         grid-column: 1;
         grid-row: 1;
+        height: 144px;
     }
 
-    #Vieux_port.vignetteA, #Fort.vignetteA, #Iles.vignetteA, #calanques.vignetteA, #Garde.vignetteA, #Longchamp.vignetteA
+    #Vieux_port.vignetteA, #calanques.vignetteA
     {
         width: 90%;
     }
 
-    #Vieux_port img, #calanques img
+    #Fort.vignetteA, #Garde.vignetteA, #Iles.vignetteA, #Longchamp.vignetteA
+    {
+        width: 450%;
+    }
+
+    #Fort, #Iles, #Longchamp, #Garde
+    {
+        margin-left: 20px;
+    }
+
+    #Vieux_port img, #calanques img, #Fort img, #Garde img, #Iles img, #Longchamp img
     {
         width: 100%;
         height: 144px;
+    }
+
+    .vignetteA
+    {
+        margin-bottom: 40px;
+    }
+
+    #Vieux_port
+    {
+        margin-bottom: 0;
+    }
+
+    #calanques
+    {
+        margin-top: 0;
     }
 
     #calanques, #Vieux_port
@@ -909,7 +935,7 @@ footer ul
     {
         font-size: medium;
         height: 70px;
-        width: 50px;
+        width: 40%;
     }
     header ul
     {
@@ -929,13 +955,13 @@ footer ul
     header a
     {
         padding-top: 70px;
-        width: 335px;
+        width: 30%;
         padding-left: 80px;
     }
 
     .inscription
     {
-        padding-left: 700px;
+        padding-left: 500px;
     }
 
     .menuH
@@ -978,7 +1004,7 @@ footer ul
         font-size: medium;
         border: 10px #F2F2F2 solid;
         border-radius: 10px 0px 0px 10px;
-        width: 20px;
+        width: 2%;
         height: 30px;
     }
 
