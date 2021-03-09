@@ -111,6 +111,11 @@ nav p
    margin-top: 25px;
 }
 
+.search_icon
+{
+    display: none;
+}
+
 .bouton_rechercher
 {
     color: white;
@@ -549,6 +554,11 @@ footer ul
         width: auto;
     }
 
+    .search_icon
+    {
+    display: none;
+    }
+
     #hebergements
     {
         width: 100%;
@@ -602,6 +612,11 @@ footer ul
     body
     {
         width: auto;
+    }
+
+    .search_icon
+    {
+    display: none;
     }
 
     #hebergements
@@ -673,6 +688,11 @@ footer ul
     body
     {
         width: auto;
+    }
+
+    .search_icon
+    {
+    display: none;
     }
 
     #hebergements
@@ -774,6 +794,11 @@ footer ul
     body
     {
         width: auto;
+    }
+
+    .search_icon
+    {
+    display: none;
     }
 
     #hebergements
@@ -938,14 +963,14 @@ footer ul
     {
         display: inline-block;
         width: 100%;
-        font-size: medium;
+        font-size: larger;
         align-items: flex-start;
         background: none;
     }
 
     .Reservia_logo
     {
-        font-size: medium;
+        font-size: larger;
         height: 150px;
         width: 96%;
         border-width: 10px;
@@ -977,8 +1002,9 @@ footer ul
     .inscription
     {
         position: fixed;
-        top: 8px;
+        top: 10px;
         right: 2px;
+        margin-top: 10px;
     }
 
     .menuH
@@ -1027,38 +1053,48 @@ footer ul
     .fa-map-marker-alt
     {
         background: #F2F2F2;
-        font-size: medium;
+        font-size: 1.7em;
+        padding-top: 16px;
+        padding-left: 20px;
         border: 10px #F2F2F2 solid;
-        border-radius: 10px 0px 0px 10px;
-        width: 2%;
-        height: 30px;
+        border-radius: 30px 0px 0px 30px;
+        width: 5%;
+        height: 65px;
     }
 
     .rechercher
     {
     display: flex;
-    height: 45px;
+    height: 100px;
     font-size: small;
-    margin-top: 25px;
+    margin-top: 45px;
     width: 100%;
     font-size: medium;
+    margin-left: 5px;
     }
 
     .champs_recherche
     {
-        width: 80%;
+        width: 55%;
         font-size: medium;
-        height: 50px;
+        height: 100px;
+        border: 2px #F2F2F2 solid;
     }
     .bouton_rechercher
+    {
+        display:none;
+    }
+
+    .search_icon
     {
         color: white;
         background:#0065FC;
         border: 10px #0065FC solid;
-        border-radius: 0px 10px 10px 0px;
-        width: 17%;
-        height: 50px;
-        font-size: medium;
+        border-radius: 12px 12px 12px 12px;
+        width: 10%;
+        height: 100px;
+        font-size: medium; 
+        display: block;
     }
 
     .filtres
@@ -1154,7 +1190,7 @@ footer ul
 
     #populaires h3
     {
-        font-size: large;
+        font-size: larger;
     }
 
     #populaires h3 i
@@ -1205,12 +1241,12 @@ footer ul
 
     #cannebiere_text, #port_text, #mouettes_text, #mer_text, #panier_text
     {
-        font-size: large;
+        font-size: larger;
     }
 
     #amina_text
     {
-        font-size: large;
+        font-size: larger;
         padding-left: 5px;
     }
 
@@ -1260,7 +1296,12 @@ footer ul
 
     #Activites h3
     {
-        font-size: large;
+        font-size: larger;
+    }
+
+    #Vieux_port_text, #Fort_text, #Iles_text, #calanques_text, #garde_text, #longchamp_text
+    {
+        font-size: larger;
     }
 
     #Vieux_port, #calanques
@@ -1291,6 +1332,7 @@ footer ul
     }
 
     #fort_iles img
+
     {
         width:100%;
         height: 300px;
@@ -1326,8 +1368,8 @@ footer ul
         font-size: large;
         justify-content: center;
     }
-    footer ul
+    footer li
     {
-        font-size: small;
+        font-size: larger ;
     }
 }
