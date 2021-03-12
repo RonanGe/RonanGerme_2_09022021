@@ -7,13 +7,14 @@ body
 .Reservia_logo
 {
     position: fixed;
-    top: 5px;
+    top: 0;
     left: 0;
     padding-left: 15px;
     width: 100%;
-    background-color: #F2F2F2;
-    border: 20px #F2F2F2 solid;
+    background-color: white;
+    border: 20px white solid;
     border-radius: 10px 10px 10px 10px;
+    padding-top: 20px;
 }
 
 header
@@ -22,6 +23,7 @@ header
     justify-content: space-between;
     width: 100%;
     height: 60px;
+    padding-top: 5px;
 }
 
 header ul
@@ -33,10 +35,10 @@ header ul
     margin-top: 5px;
     padding-top: 8px;
     position: fixed;
-    top:5px;
+    top:0;
     right: 0;
-    background-color: #F2F2F2;
-    border: 20px #F2F2F2 solid;
+    background-color:white;
+    border: 20px white solid;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -45,19 +47,16 @@ header li
     display: flex;
     margin-right: 15px;
     font-size: small;
+    padding-top: 20px;
 }
 
-header a:hover
+header li:hover
 {
    color: #0065FC; 
    border-top: 2px #0065FC solid;
 }
 
-header a:hover
-{
-    color: #0065FC;
-    text-decoration: overline;
-}
+
 
 a
 {
@@ -75,6 +74,11 @@ a:active
 {
     color: black;
     text-decoration: none;
+}
+
+.inscription a
+{
+    color: #0065FC;
 }
 
 
@@ -171,12 +175,19 @@ nav p
 
 .info
 {
-    font-size: smaller;
+    font-size: smaller;  
 }
 
-.fa-info-circle
+.fa-info
 {
     color:#0065FC;
+    border: #F2F2F2 solid 2px;
+    border-radius: 50%;
+    margin-right: 0.5%;
+    width:1.5%;
+    height: 32px;
+    padding-left: 0.9%;
+    padding-top: 5px;
 }
 #hebergements
 {
@@ -559,6 +570,14 @@ footer ul
     display: none;
     }
 
+    .fa-info
+    {
+        width:1.4%;
+        height: 32px;
+        padding-left: 0.8%;
+        padding-top: 5px;
+    }
+
     #hebergements
     {
         width: 100%;
@@ -617,6 +636,14 @@ footer ul
     .search_icon
     {
     display: none;
+    }
+
+    .fa-info
+    {
+        width:2.2%;
+        height: 32px;
+        padding-left: 1.4%;
+        padding-top: 5px;
     }
 
     #hebergements
@@ -680,6 +707,17 @@ footer ul
     #fort_iles img, #garde_lonchamp img
     {
         width:100%;
+    }
+}
+
+@media screen and (width: 1440px)
+{
+    .fa-info
+    {
+        width:1.5%;
+        height: 32px;
+        padding-left: 0.9%;
+        padding-top: 5px;
     }
 }
 
@@ -1004,7 +1042,11 @@ footer ul
         position: fixed;
         top: 10px;
         right: 2px;
-        margin-top: 10px;
+    }
+
+    .inscription a
+    {
+        padding-top: 5px;
     }
 
     .menuH
@@ -1166,6 +1208,7 @@ footer ul
     #hebergements
     {
         width: auto;
+        background-color: white;
     }
 
     section 
@@ -1198,22 +1241,30 @@ footer ul
         padding-left: 550px;
     }
 
+    .vignetteP
+    {
+        width: 100%;
+        height: 300px;
+    }
+
     #soleil, #eau, #blanc
     {
         width: 95%;
-        margin-left: 15px;
+        height: 250px;
     }
 
     #soleil img, #eau img, #blanc img
     {
-        width: 33%;
-        height: 200px;
+        object-fit: cover;
+        height: 250px;
     }
 
     #text_water, #text_sun, #text_white
     {
         font-size: large;
         padding-left: 20px;
+        height: auto;
+        width: 80%;
     }
 
     #logements
@@ -1227,21 +1278,40 @@ footer ul
         font-size: larger;
     }
 
+    .vignetteH
+    {
+        border-radius: 20px 20px 20px 20px;
+        height: 410px;
+        width: 95%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .ombre
+    {
+        box-shadow: 0px 0px 20px #F2F2F2;
+    }
+
     #cannebiere, #port, #mouettes, #mer, #panier, #amina
     {
-        margin-left: 20px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 5px;
         font-size: large;
+        border: 5px solid white;
+        height: 400px;
     }
 
     #cannebiere img, #port img, #mouettes img, #mer img, #panier img, #amina img
     {
-        width: 100%;
-        height: 300px;
+        object-fit: cover ;
+        height: 250px;
     }
 
     #cannebiere_text, #port_text, #mouettes_text, #mer_text, #panier_text
     {
         font-size: larger;
+        height: 400px;
     }
 
     #amina_text
@@ -1278,6 +1348,7 @@ footer ul
     {
         font-size: large;
         padding-left: 15px;
+        margin-top: 30px;
     }
 
     article h2
@@ -1299,66 +1370,65 @@ footer ul
         font-size: larger;
     }
 
+    .vignetteA
+    {
+        border-radius: 20px 20px 20px 20px;
+        height: 350px;
+        width: 95%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 17px;
+    }
+
     #Vieux_port_text, #Fort_text, #Iles_text, #calanques_text, #garde_text, #longchamp_text
     {
         font-size: larger;
+        height: 350px;
+        width: 100%;
     }
 
     #Vieux_port, #calanques
     {
-        width: 90%;
-        margin-left: 40px;
+        width: 100%;
+        margin: 0;
+        border-radius: 20px 20px 20px 20px;
     }
 
     #Vieux_port img, #calanques img
     {
-        width: 100%;
-        height: 300px;
+        object-fit: cover;
+        height: 250px;
     }
 
     #fort_iles, #garde_longchamp
     {
-        width:95%;
+        width: 100%;
+        margin: 0;
     }
 
-    #Fort
+    #Fort, #Iles, #Garde, #Longchamp
     {
-        width: 95%;
-    }
-
-    #Iles
-    {
-        width: 95%;
+        width: 100%;
+        margin: 0;
     }
 
     #fort_iles img
 
     {
-        width:100%;
-        height: 300px;
-    }
-
-
-    #Garde
-    {
-        width: 95%;
+        object-fit: cover;
+        height: 250px;
     }
 
     #Garde img
     {
-        width: 100%;
-        height: 300px;
-    }
-
-    #Longchamp
-    {
-        width: 95%;
+        object-fit: cover;
+        height: 250px;
     }
 
     #Longchamp img
     {
-        width: 100%;
-        height: 300px;
+        object-fit: cover;
+        height: 250px;
     }
 
     footer
