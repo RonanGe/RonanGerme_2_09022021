@@ -414,6 +414,7 @@ article h2
     flex-wrap: wrap;
     justify-content: flex-start;
     height: auto;
+    margin-bottom: 20px;
 }
 
 #Activites h3
@@ -429,18 +430,23 @@ article h2
     border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    width: 30%;
     font-size: small;
+    width: 30%;
     text-decoration: none;
     margin-right: 10px;
     margin-left: 0px;
 }
 
-#Vieux_port img
+#Vieux, #Calanques
+{
+    height: 450px;
+}
+
+#Vieux_port img, #calanques img
 {
     border-radius: 10px 10px 0px 0px;
-    height: 500px; 
-    width: 100%;
+    height: 450px; 
+    object-fit: cover;
     margin-right: 10px;
 }
 
@@ -452,6 +458,7 @@ article h2
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: small;
+    height: 250px;
     text-decoration: none;
     margin-right: 10px;
 }
@@ -459,7 +466,8 @@ article h2
 #Fort img
 {
     border-radius: 10px 10px 0px 0px;
-    width: 50%;
+    height: 200px;
+    object-fit: cover;
     margin-right: 10px;
 }
 
@@ -471,6 +479,7 @@ article h2
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: small;
+    height: 220px;
     text-decoration: none;
     margin-right: 10px;
 }
@@ -478,8 +487,14 @@ article h2
 #Iles img
 {
     border-radius: 10px 10px 0px 0px;
-    width: 100%;
+    height: 170px;
+    object-fit: cover;
     margin-right: 10px;
+}
+
+#Frioul
+{
+    height: 220px;
 }
 
 #fort_iles
@@ -489,11 +504,6 @@ article h2
     width: 20%;
 }
 
-#fort_iles img
-{
-    height: 190px;
-    width: 100%;
-}
 
 #calanques
 {
@@ -508,14 +518,7 @@ article h2
     margin-right: 10px;
 }
 
-#calanques img
-{
-    border-radius: 10px 10px 0px 0px;
-    height: 500px; 
-    width: 100%;
-    margin-right: 10px;
-    margin-left: 0px;
-}
+
 
 #garde_longchamp
 {
@@ -535,13 +538,14 @@ article h2
     text-decoration: none;
     margin-right: 0px;
     padding-left: 0px;
+    height: 230px;
 }
 
 #Garde img
 {
     border-radius: 10px 10px 0px 0px;
     height:180px; 
-    width: 100%;
+    object-fit: cover;
     margin-right: 0px;
 }
 
@@ -553,6 +557,7 @@ article h2
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: small;
+    height: 240px;
     text-decoration: none;
     margin-right: 0px;
 }
@@ -560,8 +565,9 @@ article h2
 #Longchamp img
 {
     border-radius: 10px 10px 0px 0px;
+    object-fit: cover;
     width: 100%;
-    height: 200px;
+    height: 190px;
     margin-right: 0px;
 }
 
