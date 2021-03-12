@@ -193,10 +193,10 @@ nav p
 {
     background-color: #F2F2F2;
     border-radius: 30px ;
-    width: 80%;
+    width: 100%;
     margin-right: 5px;
     margin-top: 5px;
-    padding-top: 15px;
+    padding-top: 5px;
     padding-bottom: 15px;
     display: inline-block;
     vertical-align: top;
@@ -205,8 +205,11 @@ nav p
 #logements
 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 30% 30% 30%;
     grid-template-rows: 300px 300px;
+    margin-right: 10px;
+    margin-left: 10px;
+    column-gap: 25px;
 }
 #Cannebiere
 {
@@ -214,10 +217,6 @@ nav p
     grid-row: 1;
 }
 
-#cannebiere.vignetteH, #port.vignetteH, #mouettes.vignetteH, #mer.vignetteH, #panier.vignetteH, #amina.vignetteH
-{
-    width: 90%;
-}
 #Port
 {
     grid-column: 2;
@@ -236,6 +235,7 @@ nav p
 {
     font-size: small;
     padding-left: 10px;
+    padding-bottom: 15px;
 }
 
 
@@ -245,8 +245,8 @@ nav p
     text-decoration: none;
     color : black;
     padding-left: 5px;
-    padding-bottom: 15px;
-
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 .vignetteH
@@ -256,14 +256,27 @@ nav p
     border-radius: 10px 10px 20px 20px;
     font-size: small;
     text-decoration: none;
-    margin-right: 15px;
+    width: 100%;
+    margin-left: 10px;
+    height: 300px;
+    
 }
 
+#cannebiere, #port, #mouettes, #mer, #panier, #amina
+{
+    height: 300px;
+}
+
+#cannebiere_text, #port_text, #mouettes_text, #mer_text, #panier_text
+{
+    height: 300px;
+}
 .vignetteH img
 {
     border-radius: 10px 10px 0px 0px;
-    width: 100%;
     height: 144px;
+    object-fit:cover;
+    width: 100%;
 }
 
 .vignetteH h3
@@ -316,11 +329,11 @@ section
 {
     background-color: #F2F2F2;
     border-radius: 30px ;
-    width: auto;
+    width: 80%;
     margin-right: 5px;
     margin-top: 5px;
     padding-top: 15px;
-    margin-left: 15px;
+    margin-left: 50px;
     padding-bottom: 15px;
     padding-right: 17px;
 }
@@ -331,28 +344,30 @@ section
     padding-left: 10px;
 }
 
+.vignetteP
+{
+    width: 95%;
+    height: 200px;
+}
+
 #eau, #soleil, #blanc
 {
     background-color: white;
     border: 4px white solid;
     border-radius: 10px 10px 20px 19px;
-    width: 91%;
+    width: 100%;
     font-size: small;
     text-decoration: none;
     margin-inline-start: 20px;
 }
 
-#Eau, #Blanc
-{
-    padding-top: 15px;
-}
-
 #eau img, #soleil img, #blanc img
 {
     border-radius: 10px 0px 0px 10px;
-    height: 150px; 
-    width: 35%;
+    height: 170px; 
+    object-fit: cover;
     margin-right: 15px;
+    width: 40%;
 }
 
 #text_eau, #text_soleil, #text_blanc
@@ -362,17 +377,25 @@ section
     color:black;
     display: flex;
     align-content: space-around;
+    width: 100%;
 }
 
 #text_eau h3, #text_soleil h3, #text_blanc h3
 {
     margin-bottom: 4px;
-    padding-left: 0px;
+    padding-left: 0;
+    margin-top: 4px;
 }
 
 #starsE, #starsS, #starsB
 {
     color: #0065FC;
+    padding-top: 40px;
+}
+
+#starsS, #starsB
+{
+    padding-top: 65px;
 }
 
 .stars_blank_b
@@ -590,14 +613,15 @@ footer ul
 
     .vignetteH
     {
-        width: 20%;
+        width: 100%;
         margin-left: 12px;
-    
+        height: 250px;
+        margin-bottom: 35px;
     }
 
-    #cannebiere img, #port img, #mouettes img, #mer img, #panier img, #amina img
+    #cannebiere, #port, #mouettes, #mer, #panier, #amina
     {
-        width: 100%;
+        margin:5px;
     }
 
     #Activites
@@ -651,10 +675,6 @@ footer ul
         width: auto;
     }
 
-    #populaires
-    {
-        height: 95%;
-    }
 
    .vignetteP
    {
@@ -1238,7 +1258,7 @@ footer ul
 
     #populaires h3 i
     {
-        padding-left: 550px;
+        padding-left: 60%;
     }
 
     .vignetteP
