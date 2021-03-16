@@ -220,6 +220,7 @@ nav p
     margin-right: 10px;
     margin-left: 10px;
     column-gap: 25px;
+    width: auto;
 }
 #Cannebiere
 {
@@ -269,7 +270,6 @@ nav p
     width: 100%;
     margin-left: 10px;
     height: 300px;
-    
 }
 
 #cannebiere, #port, #mouettes, #mer, #panier, #amina
@@ -773,7 +773,7 @@ footer ul
 }
 
 
-@media screen and (width: 1024px)
+@media screen and (min-width: 1024px) and (max-width: 1200px)
 {
     body
     {
@@ -877,7 +877,7 @@ footer ul
     }
 }
 
-@media all and (device-width: 768px)
+@media all and (min-width: 768px) and (max-width: 1024px)
 {
     body
     {
@@ -892,6 +892,11 @@ footer ul
     #hebergements
     {
         width: auto;
+    }
+
+    #logements
+    {
+        margin-left: 0px;
     }
 
     section 
@@ -962,12 +967,22 @@ footer ul
         grid-column: 1;
         grid-row: 1;
         height: 250px;
-        margin-left: 40px;
+        margin-left: 1%;
+    }
+
+    #calanques
+    {
+        margin-left: 1%;
+    }
+
+    #Fort, #Iles
+    {
+        margin-left: 40%;
     }
 
     #Vieux_port, #calanques, #Fort, #Iles, #Garde, #Longchamp
     {
-        width: 12em;
+        width: 10em;
         height: 250px;
     }
 
@@ -1014,7 +1029,7 @@ footer ul
     }
 }
 
-@media all and (max-device-width: 425px)
+@media all and (min-width: 320px) and (max-width:720px)
 {
     body
     {
@@ -1172,13 +1187,13 @@ footer ul
     {
         width: 100%;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
         grid-template-rows: 100px 100px 100px 100px;
     }
 
     .filtres p
     {
-        font-size: medium;
+        font-size:medium;
         width: 100%;
         margin-left: 15px;
     }
@@ -1209,16 +1224,21 @@ footer ul
 
     .cash, .child, .heart, .dog
     {
-        font-size: large;
-        width: 65%;
+        font-size: small;
+        width: 90%;
         margin-top: 15px;
         margin-left: 22px;
     }
 
+    .child
+    {
+        width: 74%;
+    }
+
     .money, .famille, .romantique, .animaux
     {
-        font-size: medium;
-        width: 100%;
+        font-size: small;
+        width: auto;
     }
     
     .info
@@ -1267,6 +1287,7 @@ footer ul
     {
         width: 100%;
         height: 300px;
+        max-height: 100%;
     }
 
     #soleil, #eau, #blanc
@@ -1291,7 +1312,7 @@ footer ul
 
     #starsB, #starsS
     {
-        padding-top: 80px;
+        padding-top:40px;
     }
 
     #text_water, #text_sun, #text_white
