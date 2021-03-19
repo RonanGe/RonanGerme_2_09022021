@@ -645,7 +645,7 @@ footer ul
     }
     #Vieux_port, #calanques
     {
-        width:fit-content;
+        width:auto;
     }
 
     #Vieux_port img, #calanques img
@@ -754,7 +754,7 @@ footer ul
 
     #Vieux_port, #calanques
     {
-        width: fit-content;
+        width: auto;
         height: 520px;
     }
 
@@ -845,7 +845,7 @@ footer ul
 
     #Vieux_port, #calanques
     {
-        width: fit-content;
+        width: auto;
         height: 480px;
     }
 
