@@ -254,13 +254,13 @@ nav p
 
 #afficher
 {
-    font-size: x-small;
+    font-size: small;
     text-decoration: none;
     color : black;
     padding-left: 22px;
     padding-bottom: 10px;
     padding-top: 10px;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 .vignetteH
@@ -451,8 +451,8 @@ article h2
     font-size: small;
     width: 30%;
     text-decoration: none;
-    margin-right: 10px;
-    margin-left: 0px;
+    margin-left: 15px;
+    margin-right: 5px;
     height: auto;
 }
 
@@ -478,7 +478,8 @@ article h2
     border-bottom-right-radius: 20px;
     font-size: small;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 17px;
     height: 250px;
 }
 
@@ -505,7 +506,8 @@ article h2
     font-size: small;
     height: 220px;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 17px;
 }
 
 #Iles img
@@ -539,7 +541,8 @@ article h2
     width: 30%;
     font-size: small;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 5px;
+    margin-left: 17px;
     height: auto;
 }
 
@@ -561,7 +564,8 @@ article h2
     border-bottom-right-radius: 20px;
     font-size: small;
     text-decoration: none;
-    margin-right: 0px;
+    margin-right: 15px;
+    margin-left: 17px;
     padding-left: 0px;
     height: 230px;
 }
@@ -584,7 +588,8 @@ article h2
     font-size: small;
     height: 240px;
     text-decoration: none;
-    margin-right: 0px;
+    margin-right: 15px;
+    margin-left: 17px;
 }
 
 #Longchamp img
@@ -1008,6 +1013,7 @@ footer ul
         grid-row: 1;
         height: 250px;
         margin-left: 1%;
+        width: 100%;
     }
 
     #calanques
@@ -1015,14 +1021,9 @@ footer ul
         margin-left: 1%;
     }
 
-    #Fort, #Iles
-    {
-        margin-left: 40%;
-    }
-
     #Vieux_port, #calanques, #Fort, #Iles, #Garde, #Longchamp
     {
-        width: 10em;
+        
         height: 250px;
     }
 
@@ -1033,34 +1034,49 @@ footer ul
         object-fit: cover;
     }
 
+    #fort_iles, #garde_longchamp
+    {
+        width: 100%;
+    }
+
     #Pomegues
     {
         grid-column: 2;
         grid-row: 1;
+        width: 100%;
+        margin-left: 15px;
     }
 
     #frioul
     {
         grid-column: 3;
         grid-row: 1;
+        width: 100%;
+        margin-left: 15px;
     }
 
     #Calanques
     {
         grid-column: 1;
         grid-row: 2;
+        width: 100%;
+        margin-left: 10px;
     }
 
     #Dame
     {
         grid-column: 2;
         grid-row: 2;
+        margin-left: 25px;
+        width: 100%;
     }
 
     #longchamp
     {
         grid-column: 3;
         grid-row: 2;
+        margin-left: 25px;
+        width: 100%;
     }
 
     footer ul
