@@ -1500,10 +1500,15 @@ footer ul
         width: 100%;
     }
 
-    #Vieux, #Calanques, #Dame, #Garde
+    #Vieux, #Calanques
     {
         height: 350px;
         width: 95%;
+    }
+
+    #Dame, #Garde
+    {
+        width: 100%;
     }
 
     #Vieux_port, #calanques
@@ -1528,7 +1533,7 @@ footer ul
 
     #Fort, #Iles, #Garde, #Longchamp
     {
-        width: 95%;
+        width: 100%;
         margin: 0;
     }
 
