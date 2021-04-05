@@ -92,7 +92,7 @@ h2
 }
 
 
-nav p
+.find p
 {
     font-size: smaller;
     padding-top: 2px;
@@ -127,6 +127,12 @@ nav p
     background:#0065FC;
     border: 10px #0065FC solid;
     border-radius: 0px 10px 10px 0px;
+    font-family: 'Raleway';
+}
+
+.champs_recherche
+{
+    font-family: "Raleway";
 }
 
 .filtres, p, .cash, .child, .heart, .dog
@@ -137,6 +143,7 @@ nav p
     padding-right: 5px;
     justify-content:left;
     margin-right: 15px;
+    font-family: 'Raleway';
 }
 
 .filtres p
@@ -166,6 +173,7 @@ nav p
     background-color: white;
     border: 2px white solid;
     font-weight: bold;
+    font-family: "Raleway";
 }
 
 .filtres :hover
@@ -371,7 +379,8 @@ section
     width: 100%;
     font-size: small;
     text-decoration: none;
-    margin-inline-start: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 #eau img, #soleil img, #blanc img
@@ -1085,7 +1094,7 @@ footer ul
     }
 }
 
-@media all and (max-device-width:720px)
+@media all and (max-width:720px)
 {
     body
     {
@@ -1174,18 +1183,18 @@ footer ul
         color: #0065FC;
     }
 
-    nav
+    .find
     {
         margin-top: 150px;
     }
 
-    nav h2
+    .find h2
     {
         font-size: medium;
         margin-left: 10px;
     }
 
-    nav p
+    .find p
     {
         margin-top: 10px;
         margin-left: 15px;
@@ -1197,10 +1206,10 @@ footer ul
         background: #F2F2F2;
         font-size: 1.7em;
         padding-top: 16px;
-        padding-left: 20px;
+        padding-left: 10px;
         border: 10px #F2F2F2 solid;
         border-radius: 30px 0px 0px 30px;
-        width: 5%;
+        width: 10%;
         height: 65px;
     }
 
@@ -1211,14 +1220,14 @@ footer ul
     font-size: small;
     margin-top: 45px;
     width: 100%;
-    font-size: medium;
+    font-size: small;
     margin-left: 5px;
     }
 
     .champs_recherche
     {
-        width: 57%;
-        font-size: medium;
+        width: 75%;
+        font-size: small;
         height: 100px;
         border: 2px #F2F2F2 solid;
     }
@@ -1233,9 +1242,9 @@ footer ul
         background:#0065FC;
         border: 10px #0065FC solid;
         border-radius: 16px 16px 16px 16px;
-        width: 10%;
+        width: 20%;
         height: 100px;
-        font-size: medium; 
+        font-size: small; 
         display: block;
     }
 
@@ -1317,7 +1326,7 @@ footer ul
 
     #populaires
     {
-        width: auto;
+        width: 100%;
         margin-left: 0px;
         margin-right: 5px;
     }
@@ -1336,7 +1345,7 @@ footer ul
 
     #populaires h3 i
     {
-        padding-left: 60%;
+        padding-left: 10%;
     }
 
     .vignetteP
@@ -1356,24 +1365,32 @@ footer ul
     {
         height: 250px;
         object-fit: cover;
-        width: 35%;
+        width: 40%;
     }
 
     #blanc img
     {
         height: 250px;
-        width: 46%;
+        width: 40%;
         object-fit: cover;
     }
 
-    #starsB, #starsS
+    #starsB
     {
-        padding-top:40px;
+        padding-top:115px;
+    }
+
+    #starsS{
+        padding-top: 100px;
+    }
+    
+    #starsE{
+        padding-top: 120px;
     }
 
     #text_water, #text_sun, #text_white
     {
-        font-size: large;
+        font-size: x-small;
         padding-left: 20px;
         height: auto;
         width: 80%;
@@ -1409,7 +1426,7 @@ footer ul
         margin-left: 5px;
         margin-right: 5px;
         margin-top: 5px;
-        font-size: large;
+        font-size: small;
         border: 5px solid white;
         height: 400px;
     }
@@ -1422,7 +1439,7 @@ footer ul
 
     #cannebiere_text, #port_text, #mouettes_text, #mer_text, #panier_text
     {
-        font-size: larger;
+        font-size: small;
         height: 400px;
     }
 
@@ -1445,20 +1462,20 @@ footer ul
 
     #stars, #starsP, #starsM, #starsMer, #starspanier
     {
-        font-size: large;
+        font-size: small;
         margin-top: 5px;
     }
 
     #starsA
     {
-        font-size: large;
+        font-size: small;
         padding-left: 5px;
         margin-top: 5px;
     }
 
     #afficher
     {
-        font-size: large;
+        font-size: small;
         padding-left: 15px;
         margin-top: 30px;
     }
@@ -1471,8 +1488,8 @@ footer ul
 
     #Activites
     {
-        width: auto;
-        font-size: larger;
+        width: 100%;
+        font-size: small;
         display: flex;
         flex-direction: column;
         height: auto;
@@ -1487,7 +1504,7 @@ footer ul
     {
         border-radius: 20px 20px 20px 20px;
         height: 350px;
-        width: 95%;
+        width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
         margin-left: 17px;
@@ -1495,7 +1512,7 @@ footer ul
 
     #Vieux_port_text, #Fort_text, #Iles_text, #calanques_text, #garde_text, #longchamp_text
     {
-        font-size: larger;
+        font-size: smaller;
         height: 350px;
         width: 100%;
     }
