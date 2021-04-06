@@ -12,9 +12,9 @@ body
     padding-left: 15px;
     width: 100%;
     background-color: white;
-    border: 10px white solid;
     border-radius: 10px 10px 10px 10px;
     padding-top: 20px;
+    z-index: 1;
 }
 
 header
@@ -39,8 +39,8 @@ header ul
     top:0;
     right: 0;
     background-color:white;
-    border: 10px white solid;
     border-radius: 10px 10px 10px 10px;
+    z-index: 1;
 }
 
 header li
@@ -103,7 +103,6 @@ h2
 {
     background: #F2F2F2;
     font-size: small;
-    border: 10px #F2F2F2 solid;
     border-radius: 10px 0px 0px 10px;
     width:1.5%;
 }
@@ -125,14 +124,15 @@ h2
 {
     color: white;
     background:#0065FC;
-    border: 10px #0065FC solid;
     border-radius: 0px 10px 10px 0px;
     font-family: 'Raleway';
+    border: none;
 }
 
 .champs_recherche
 {
     font-family: "Raleway";
+    border: 1px solid #F2F2F2;
 }
 
 .filtres, p, .cash, .child, .heart, .dog
@@ -153,12 +153,40 @@ h2
     margin-top: -5px;
 }
 
+
+.filtres .fa-circle
+{
+    font-size: 2em;
+    text-align: left;
+    margin-top: 1px;
+}
+
 .filtres .fa-money-bill, .fa-child, .fa-heart, .fa-dog
 {
     color:#0065FC;
-    background-color: #DEEBFF; 
-    border: 8px #DEEBFF solid;
     border-radius: 50%; 
+    text-align: start;
+    padding-left: 8px;
+}
+
+.fa-dog
+{
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+
+.fa-child
+
+{
+    margin-left: 6px;
+    margin-bottom: 3px;
+}
+
+.fa-heart
+{
+    text-align: start;
+    padding-bottom: 3px;
+    margin-left: 4px;
 }
 
 .cash, .child, .heart, .dog
@@ -171,7 +199,7 @@ h2
 .money, .famille, .romantique, .animaux
 {
     background-color: white;
-    border: 2px white solid;
+    border: none;
     font-weight: bold;
     font-family: "Raleway";
 }
@@ -274,7 +302,6 @@ h2
 .vignetteH
 {
     background-color: white;
-    border: 2px white solid;
     border-radius: 10px 10px 20px 20px;
     font-size: small;
     text-decoration: none;
@@ -374,13 +401,12 @@ section
 #eau, #soleil, #blanc
 {
     background-color: white;
-    border: 4px white solid;
-    border-radius: 10px 10px 20px 19px;
     width: 100%;
     font-size: small;
     text-decoration: none;
     margin-right: 20px;
     margin-left: 20px;
+    border-radius: 10px 10px 20px 19px;
 }
 
 #eau img, #soleil img, #blanc img
@@ -409,15 +435,18 @@ section
     margin-top: 4px;
 }
 
+#text_sun, #text_water, #text_white
+{
+    position: relative;
+    z-index: 0;
+}
+
 #starsE, #starsS, #starsB
 {
     color: #0065FC;
-    padding-top: 40px;
-}
-
-#starsS, #starsB
-{
-    padding-top: 65px;
+    position: absolute;
+    z-index: 0;
+    bottom: 20px;
 }
 
 .stars_blank_b
@@ -454,7 +483,6 @@ article h2
 {
     background-color: white;
     box-shadow: 6px 6px 10px #F2F2F2;
-    border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: small;
@@ -475,14 +503,13 @@ article h2
 
 #Vieux_port_text, #calanques_text
 {
-    height: 520px;
+    height: auto;
 }
 
 #Fort
 {
     background-color: white;
     box-shadow: 6px 6px 10px #F2F2F2;
-    border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: small;
@@ -509,7 +536,6 @@ article h2
 {
     background-color: white;
     box-shadow: 6px 6px 10px #F2F2F2;
-    border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: small;
@@ -544,7 +570,6 @@ article h2
 {
     background-color: white;
     box-shadow: 6px 6px 10px #F2F2F2;
-    border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 30%;
@@ -568,7 +593,6 @@ article h2
 {
     background-color: white;
     box-shadow: 6px 6px 10px #F2F2F2;
-    border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: small;
@@ -591,7 +615,6 @@ article h2
 {
     background-color: white;
     box-shadow: 6px 6px 10px #F2F2F2;
-    border-bottom: 4px white solid;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: small;
@@ -1204,19 +1227,17 @@ footer ul
     .fa-map-marker-alt
     {
         background: #F2F2F2;
-        font-size: 1.7em;
+        font-size: large;
         padding-top: 16px;
         padding-left: 10px;
-        border: 10px #F2F2F2 solid;
         border-radius: 30px 0px 0px 30px;
         width: 10%;
-        height: 65px;
     }
 
     .rechercher
     {
     display: flex;
-    height: 100px;
+    height: 75px;
     font-size: small;
     margin-top: 45px;
     width: 100%;
@@ -1226,9 +1247,9 @@ footer ul
 
     .champs_recherche
     {
-        width: 75%;
+        width: 85%;
         font-size: small;
-        height: 100px;
+        height: 75px;
         border: 2px #F2F2F2 solid;
     }
     .bouton_rechercher
@@ -1240,10 +1261,10 @@ footer ul
     {
         color: white;
         background:#0065FC;
-        border: 10px #0065FC solid;
+        border: none;
         border-radius: 16px 16px 16px 16px;
-        width: 20%;
-        height: 100px;
+        width: 30%;
+        height: 75px;
         font-size: small; 
         display: block;
     }
@@ -1375,17 +1396,14 @@ footer ul
         object-fit: cover;
     }
 
-    #starsB
+    #starsB, #starsE
     {
-        padding-top:115px;
+        top: 160px;
     }
 
-    #starsS{
-        padding-top: 100px;
-    }
-    
-    #starsE{
-        padding-top: 120px;
+    #starsS
+    {
+        top: 200px;
     }
 
     #text_water, #text_sun, #text_white
