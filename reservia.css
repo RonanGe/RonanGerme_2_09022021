@@ -158,9 +158,10 @@ h2
 
 .filtres .fa-circle
 {
-    font-size: 2em;
+    font-size: 2.1em;
     text-align: left;
     margin-top: 1px;
+    color: #DEEBFF;
 }
 
 .filtres .fa-money-bill, .fa-child, .fa-heart, .fa-dog
@@ -174,13 +175,13 @@ h2
 .fa-dog
 {
     margin-bottom: 5px;
-    margin-left: 2px;
+    margin-left: 3px;
 }
 
 .fa-child
 
 {
-    margin-left: 6px;
+    margin-left: 8px;
     margin-bottom: 3px;
 }
 
@@ -188,7 +189,7 @@ h2
 {
     text-align: start;
     padding-bottom: 3px;
-    margin-left: 4px;
+    margin-left: 5px;
 }
 
 .cash, .child, .heart, .dog
@@ -233,9 +234,9 @@ h2
     font-size: 0.7em;
 }
 
-.fa-circle
+.info .fa-circle
 {
-    color: #F2F2F2;
+    color: #f3f3f3;
     font-size: 1.5em;
 }
 
@@ -505,7 +506,7 @@ article h2
 
 #Vieux_port_text, #calanques_text
 {
-    height: auto;
+    height: 545px;
 }
 
 #Fort
@@ -518,12 +519,7 @@ article h2
     text-decoration: none;
     margin-right: 5px;
     margin-left: 17px;
-    height: 250px;
-}
-
-#Fort_text
-{
-    height: 250px;
+    height: 258px;
 }
 
 #Fort img
@@ -531,7 +527,7 @@ article h2
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
     margin-right: 10px;
-    height: 200px;
+    height: 190px;
 }
 
 #Iles
@@ -541,7 +537,7 @@ article h2
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: small;
-    height: 220px;
+    height: 240px;
     text-decoration: none;
     margin-right: 5px;
     margin-left: 17px;
@@ -550,7 +546,7 @@ article h2
 #Iles img
 {
     border-radius: 10px 10px 0px 0px;
-    height: 170px;
+    height: 165px;
     object-fit: cover;
     margin-right: 10px;
 }
@@ -602,13 +598,13 @@ article h2
     margin-right: 15px;
     margin-left: 17px;
     padding-left: 0px;
-    height: 230px;
+    height: 243px;
 }
 
 #Garde img
 {
     border-radius: 10px 10px 0px 0px;
-    height:180px; 
+    height:170px; 
     object-fit: cover;
     margin-right: 0px;
 }
@@ -620,7 +616,7 @@ article h2
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     font-size: small;
-    height: 240px;
+    height: 255px;
     text-decoration: none;
     margin-right: 15px;
     margin-left: 17px;
@@ -631,7 +627,7 @@ article h2
     border-radius: 10px 10px 0px 0px;
     object-fit: cover;
     width: 100%;
-    height: 190px;
+    height: 180px;
     margin-right: 0px;
 }
 
@@ -817,6 +813,16 @@ footer ul
         height: 450px;
     }
 
+    #Fort
+    {
+        height: 254px;
+    }
+
+    #Iles
+    {
+        height: 220px;
+    }
+
     #fort_iles, #garde_longchamp
     {
         width: 25%;
@@ -833,9 +839,19 @@ footer ul
         height: 150px;
     }
 
+    #Longchamp
+    {
+        height: 243px;
+    }
+
     #Longchamp img
     {
-        height: 170px;
+        height: 174px;
+    }
+
+    #Garde
+    {
+        height: 230px;
     }
 
     #Garde img
