@@ -1135,10 +1135,9 @@ footer ul
     }
 }
 
-@media all and (max-width:720px)
+@media all and (max-width:767px)
 {
-    body
-    {
+    body{
         width: auto;
     }
 
@@ -1151,7 +1150,7 @@ footer ul
     {
         display: inline-block;
         width: 100%;
-        font-size: larger;
+        font-size: medium;
         align-items: flex-start;
         background: none;
     }
@@ -1184,7 +1183,7 @@ footer ul
     {
         padding-top: 70px;
         width: 30%;
-        padding-left: 80px;
+        padding-left: 40px;
     }
 
     .inscription
@@ -1204,8 +1203,14 @@ footer ul
         border-bottom: 6px #F2F2F2 solid;
         position:fixed;
         top: 20px;
-        left: 50px;
+        left: 40px;
         width: 45%;
+    }
+
+    .menuH:hover, .menuA:hover
+    {
+        border-bottom: 6px #0065FC solid;
+        border-top: none;
     }
 
     .menuA
@@ -1218,21 +1223,22 @@ footer ul
     }
 
 
-    header a :hover
+    header li :hover
     {
-        border-bottom: 6px #0065FC solid;
         color: #0065FC;
+        border-top:none;
     }
 
     .find
     {
-        margin-top: 150px;
+        margin-top: 110px;
     }
 
     .find h2
     {
         font-size: medium;
         margin-left: 10px;
+        padding-bottom: 35px;
     }
 
     .find p
@@ -1292,7 +1298,7 @@ footer ul
         width: 100%;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 100px 100px 100px 100px;
+        grid-template-rows: 80px 80px 80px 80px;
     }
 
     .filtres p
@@ -1330,13 +1336,17 @@ footer ul
     {
         font-size: small;
         width: 90%;
-        margin-top: 15px;
-        margin-left: 22px;
+        margin-left: 10px;
+    }
+
+    .cash, .heart
+    {
+        width: 70%;
     }
 
     .child
     {
-        width: 74%;
+        width: 77%;
     }
 
     .money, .famille, .romantique, .animaux
@@ -1351,9 +1361,14 @@ footer ul
         width: 100%;
     }
 
+    .fa-info
+    {
+        margin-left: 8%;
+    }
+
     #hebergements
     {
-        width: auto;
+        width: 100%;
         background-color: white;
     }
 
@@ -1361,6 +1376,7 @@ footer ul
     {
         display: flex;
         flex-direction: column-reverse;
+        width: 100%;
     }
 
     #populaires
@@ -1368,6 +1384,7 @@ footer ul
         width: 100%;
         margin-left: 0px;
         margin-right: 5px;
+        padding-top: 0;
     }
 
     #pop
